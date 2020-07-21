@@ -1,0 +1,41 @@
+object frame_rodape: Tframe_rodape
+  Left = 0
+  Top = 0
+  Width = 677
+  Height = 26
+  TabOrder = 0
+  object panel_bottom: TPanel
+    Left = 0
+    Top = 21
+    Width = 677
+    Height = 5
+    Align = alTop
+    BevelOuter = bvNone
+    Color = clMaroon
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 677
+    Height = 21
+    Align = alTop
+    BevelOuter = bvNone
+    Color = 3487029
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 1
+  end
+end
